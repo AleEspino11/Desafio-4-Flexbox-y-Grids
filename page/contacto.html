@@ -40,26 +40,30 @@
 
  <!--Main-->
 
-<main class="fondo-contacto">
-  <form class="form">
+<main>
 
+    <section class="fondo-contacto">
+
+        <form class="form">
+
+            <label for="nombre-y-apeliido" class="form__text">Nombre y Apellido</label>
+         
+            <input type="text" id="nombre-y-apellido" class="form__label">
+
+            <label for="email" class="label-email">Email</label>
+            <input type="email" id="email" placeholder="myanime@anime.com" class="form__email">
+
+            <div>
+
+            <textarea name="" id="mensaje" cols="30" rows="10" class="form__mensaje">Mensaje</textarea>
+
+            </div>
+
+            <input type="submit" value="Enviar" class="form__enviar">
     
-
-    <label for="nombre-y-apeliido" class="form__text">Nombre y Apellido</label>
-    <input type="text" id="nombre-y-apellido" class="form__label">
-
-    <label for="email">Email</label>
-    <input type="email" id="email" placeholder="myanime@anime.com" class="form__email">
-
-    <div>
-
-    <textarea name="" id="mensaje" cols="30" rows="10" class="form__mensaje">Mensaje</textarea>
-
-    </div>
-
-    <input type="submit" value="Enviar" class="form__enviar">
-   
-    </form>
+        </form>
+    </section>
+  
 </main>
 
 
